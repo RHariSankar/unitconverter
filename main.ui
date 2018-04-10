@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1042</width>
-    <height>858</height>
+    <width>625</width>
+    <height>608</height>
    </rect>
   </property>
   <property name="mouseTracking">
@@ -28,9 +28,9 @@
   <widget class="QLineEdit" name="first">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>40</y>
-     <width>561</width>
+     <x>120</x>
+     <y>30</y>
+     <width>371</width>
      <height>51</height>
     </rect>
    </property>
@@ -38,9 +38,9 @@
   <widget class="QLineEdit" name="second">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>120</x>
      <y>160</y>
-     <width>561</width>
+     <width>371</width>
      <height>51</height>
     </rect>
    </property>
@@ -48,10 +48,10 @@
   <widget class="QTabWidget" name="units">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>330</y>
-     <width>581</width>
-     <height>371</height>
+     <x>160</x>
+     <y>280</y>
+     <width>281</width>
+     <height>231</height>
     </rect>
    </property>
    <property name="tabPosition">
@@ -76,14 +76,14 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>20</y>
+       <x>20</x>
+       <y>40</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>cm-&gt;m</string>
+      <string>cm -&gt; m</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -95,14 +95,14 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>290</x>
-       <y>20</y>
+       <x>20</x>
+       <y>100</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>m-&gt;foot</string>
+      <string>m -&gt; foot</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -114,14 +114,14 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>20</y>
+       <x>160</x>
+       <y>40</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>cm-&gt;inch</string>
+      <string>cm- &gt; inch</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -133,14 +133,14 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>430</x>
-       <y>20</y>
+       <x>160</x>
+       <y>100</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>m-&gt;yard</string>
+      <string>m -&gt; yard</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -157,14 +157,14 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>20</y>
+       <x>20</x>
+       <y>40</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>kg-&gt;g</string>
+      <string>kg -&gt; g</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -176,14 +176,14 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>290</x>
-       <y>20</y>
+       <x>20</x>
+       <y>100</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>kg-&gt;ounce</string>
+      <string>kg -&gt; ounce</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -195,33 +195,33 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>20</y>
+       <x>160</x>
+       <y>40</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>kg-&gt;Pound</string>
+      <string>kg -&gt; Pound</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
      </property>
     </widget>
-    <widget class="QPushButton" name="kgtoquintal">
+    <widget class="QPushButton" name="kgtotonne">
      <property name="enabled">
       <bool>true</bool>
      </property>
      <property name="geometry">
       <rect>
-       <x>430</x>
-       <y>20</y>
+       <x>160</x>
+       <y>100</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>kg-&gt;Quintal</string>
+      <string>kg -&gt; Tonne</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -238,14 +238,14 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>20</y>
+       <x>20</x>
+       <y>40</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>Celcius-&gt;Fah</string>
+      <string>Celcius -&gt; Fah</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -257,14 +257,14 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>20</y>
+       <x>160</x>
+       <y>40</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>Celcius-&gt;Kel</string>
+      <string>Celcius -&gt; Kel</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -276,33 +276,14 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>430</x>
-       <y>20</y>
+       <x>90</x>
+       <y>100</y>
        <width>101</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>Fahren-&gt;Kel</string>
-     </property>
-     <property name="autoDefault">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="celtoran">
-     <property name="enabled">
-      <bool>true</bool>
-     </property>
-     <property name="geometry">
-      <rect>
-       <x>290</x>
-       <y>20</y>
-       <width>101</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Celc-&gt;Rankine</string>
+      <string>Fahren -&gt; Kel</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -313,8 +294,8 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>50</y>
+     <x>20</x>
+     <y>40</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -326,7 +307,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>120</x>
+     <x>20</x>
      <y>170</y>
      <width>101</width>
      <height>31</height>
@@ -334,6 +315,22 @@
    </property>
    <property name="text">
     <string>Unit2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="invert">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>110</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>INVERT</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
    </property>
   </widget>
  </widget>
